@@ -14,3 +14,4 @@ job well done.
 - Specific list section (with details on each task)
 - Options: Delete completed tasks, rename list, delete list
 - New task page: add name, description, time, repeat, subtasks
+![alt text](https://github.com/ajensen3point14/startup/blob/main/20230127_165529.jpg?raw=true)
