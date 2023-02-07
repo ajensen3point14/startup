@@ -19,3 +19,11 @@ job well done.
 
 ## Web IP
 http://3.130.11.129/
+
+
+## HTML Intro assignment
+There wasn't a place to submit these on canvas, so I have included the links here:
+https://codepen.io/ajensen3point14/pen/GRBLMgX
+https://codepen.io/ajensen3point14/pen/MWBREKK
+https://codepen.io/ajensen3point14/pen/dyjLVGd
+https://codepen.io/ajensen3point14/pen/WNKWZrV
