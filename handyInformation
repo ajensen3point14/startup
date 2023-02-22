@@ -1,0 +1,11 @@
+# Useful Information
+SSH into dev env:
+ssh ssh -i path\to\key.pem ubuntu@3.133.242.81
+
+git commit -am "Commit notes"
+git push
+git pull
+
+./deployFiles is my push-to-prod command (see the simon files)
+
+rm -fr *blah* is the granny of all remove commands. This will force-delete everything in blah
