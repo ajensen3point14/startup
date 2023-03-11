@@ -28,3 +28,10 @@ https://codepen.io/ajensen3point14/pen/MWBREKK
 https://codepen.io/ajensen3point14/pen/dyjLVGd
 https://codepen.io/ajensen3point14/pen/WNKWZrV
 ![image](https://user-images.githubusercontent.com/113062389/217149464-26d8eb2d-1031-4f46-bb55-c5b656ae3332.png)
+
+
+### JavaScript
+This is a really powerful web dev tool. I like that it is pretty intuitive coming from a C and Java background,
+and that it seems to rely on simple commands to make things work.
+
+I really like that it makes user input comlete actions, and does so in a way that is easy to follow and debug if there are issues.
