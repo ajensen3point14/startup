@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>Task Manager</title>
-  </head>
-  <body>
-    <h1>Task Manager</h1>
-    <form>
-      <input type="text" placeholder="Enter a task...">
-      <button type="submit">Add Task</button>
-    </form>
-    <ul>
-      <li>Task 1</li>
-      <li>Task 2</li>
-      <li>Task 3</li>
-    </ul>
-  </body>
+<head>
+	<title>Task Manager</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Task Manager</h1>
+	<form id="task-form">
+		<label for="task-name">Task Name:</label>
+		<input type="text" id="task-name" required>
+		<label for="due-date">Due Date:</label>
+		<input type="date" id="due-date" required>
+		<label for="task-details">Task Details:</label>
+		<textarea id="task-details"></textarea>
+		<button type="submit">Add Task</button>
+	</form>
+	<h2>Tasks</h2>
+	<ul id="task-list"></ul>
+	<h2>Completed Tasks</h2>
+	<ul id="completed-tasks"></ul>
+	<script src="script.js"></script>
+</body>
 </html>
