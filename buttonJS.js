@@ -26,3 +26,40 @@ form.addEventListener('submit', function(e) {
 	// reset form
 	form.reset();
 });
+
+// function to add task to task list
+function addTask(task) {
+	// create new list item element
+	const li = document.createElement('li');
+
+	// set inner HTML of list item element
+	li.innerHTML = `
+		<h3>${task.name}</h3>
+		${task.details ? `<p>${task.details}</p>` : ''}
+		<p>Due Date: ${task.dueDate}</p>
+		<button class="complete-button">Complete Task</button>
+		<button class="delete-button">Delete Task</button>
+	`;
+
+	// add event listener to complete button
+	const completeButton = li.querySelector('.complete-button');
+	completeButton.addEventListener('click', function() {
+		// move task from task list to completed tasks
+		li.classList.add('completed');
+		completedTasks.appendChild(li);
+	});
+
+	// add event listener to delete button
+	const deleteButton = li.querySelector('.delete-button');
+	deleteButton.addEventListener('click', function() {
+		// remove task from task list or completed tasks
+		if (li.classList.contains('completed')) {
+			completedTasks.removeChild(li);
+		} else {
+			taskList.removeChild(li);
+		}
+	});
+
+	// add new list item to task list
+	taskList.appendChild(li);
+}
