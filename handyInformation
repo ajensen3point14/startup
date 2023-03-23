@@ -1,6 +1,6 @@
 # Useful Information
 SSH into dev env:
-ssh ssh -i path\to\key.pem ubuntu@3.133.242.81
+ssh ssh -i "C:\Users\aaron\CS260 Project\aaronpersonal.pem" ubuntu@3.133.242.81
 
 git commit -am "Commit notes"
 git push
