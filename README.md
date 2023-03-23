@@ -35,3 +35,7 @@ This is a really powerful web dev tool. I like that it is pretty intuitive comin
 and that it seems to rely on simple commands to make things work.
 
 I really like that it makes user input comlete actions, and does so in a way that is easy to follow and debug if there are issues.
+
+### Simon Service
+I really like that this makes for an easy storage of scores. That it also displays scores by high score first instead of chronological order
+is really useful.
