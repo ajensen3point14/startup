@@ -39,3 +39,7 @@ I really like that it makes user input comlete actions, and does so in a way tha
 ### Simon Service
 I really like that this makes for an easy storage of scores. That it also displays scores by high score first instead of chronological order
 is really useful.
+
+### Simon DB
+Atlas is a super useful method for creating Databases. This project also makes it very clear that the source files for things like database access will need
+to be locked down super tight because they contain the credentials to access the database.
