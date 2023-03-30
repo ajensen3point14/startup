@@ -43,3 +43,6 @@ is really useful.
 ### Simon DB
 Atlas is a super useful method for creating Databases. This project also makes it very clear that the source files for things like database access will need
 to be locked down super tight because they contain the credentials to access the database.
+
+### Simon WebSocket
+I really like the universal display of events. This event logging can be useful to determine where issues are, and who they came from to help recreate test steps to resolve the issue.
