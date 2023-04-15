@@ -11,4 +11,4 @@ git pull
 rm -fr *blah* is the granny of all remove commands. This will force-delete everything in blah
 
 mongo DB connection string
-mongodb+srv://ajensen3point14:<password>@webprogramming.xzxdrcm.mongodb.net/?retryWrites=true&w=majority
+mongodb+srv://ajensen3point14:V235yxe9!!YoDead@webprogramming.xzxdrcm.mongodb.net/?retryWrites=true&w=majority
